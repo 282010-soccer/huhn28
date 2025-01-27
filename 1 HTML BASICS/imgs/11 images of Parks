@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>National Parks</title>
+  </head>
+  <body>
+    <h1>Parks to Visit</h1>
+   
+    <a href= "https://en.wikipedia.org/wiki/Yellowstone_National_Park"><img src="Yellow Stone National Park.jpg" width=" 150px x 100px"></a>
+    <a href= "https://en.wikipedia.org/wiki/Serengeti_National_Park"><img src="Serengeti park.jpg" width=" 150px x 100px"></a>
+    <a href= "https://en.wikipedia.org/wiki/Namib-Naukluft_National_Park"><br><img src="Namib-Naukluft National Park, Namibia.jpg" width=" 150px x 100px"></a>
+  <a href= "https://en.wikipedia.org/wiki/East_African_oryx"><img src="Oryx beisa, Awash National Park.jpg" width=" 150px x 100px"></a>
+  <a href= "https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park"><img src="Mountain Gorilla from Nkuringo group.jpg" width=" 150px x 100px"></a>
+
+    
+
+ 
