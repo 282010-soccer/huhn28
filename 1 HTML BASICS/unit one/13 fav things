@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Favorite things to do</title>
+    </head>
+    
+    <body>
+        <h1>Fav things</h1>
+        <table border="1">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </th>
+            </tr>
+            <tr>
+                <td>Waffles</td>
+                <td>smoothie</td>
+                <td>Pancakes</td>
+                <td>Cereal</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ride my bike</td>
+                <td>Play Soccer</td>
+                <td>Watch a Movie </td>
+           <tr>
+                <td>Ella</td>
+                    <td>Emmy</td>
+                    <td>Cami</td>
+            </tr>
+            <tr>
+                <td>Family Room</td>
+                <td>Soccer practice</td>
+                <td>Imagine Movie Theater</td>
+                <tr>
+                  </tr>
+                  
+                
+            </tr>
+        </table>
+    </body>
+</html>
