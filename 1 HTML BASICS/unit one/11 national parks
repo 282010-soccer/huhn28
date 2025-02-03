@@ -7,9 +7,13 @@
     </head>
     <body>
         <h1>National Parks</h1>
+        <img src="imgs/Yellow Stone National Park.jpg""width= 150px height=100px"
+        <p><br><img src="imgs/Oryx beisa, Awash National Park.jpg""width= 150px height=100px"</p>
+        <br><img src="imgs/Namib-Naukluft National Park, Namibia.jpg""width= 150px height=100px"
+        <p><br><img src="imgs/Serengeti park.jpg""width= 150px height=100px"</p>
+        <br><img src="imgs/Mountain Gorilla from Nkuringo group.jpg""width= 150px height=100px"
         
-        <h1>This is not a comment</h1>
-        
+        <h1></h1>
         <!-- To be a comment, you need to start the comment block with: 
                 <!-- 
             The comment ends with a similar tag:
