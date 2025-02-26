@@ -11,26 +11,43 @@
        background-color: #62374e;
 }  
      .yellow{
+    
+        width: 50px;
+        height: 50px;
+       background-color: #fdc57b;  }
+   #topleft {
         position: absolute;
         top:50px;
         left:50px;
-        width: 50px;
-        height: 50px;
-       background-color: #fdc57b;
-    
-     }  
+    }
      #topright{
-position: absolute;
-left:350px;
+      position: absolute;
+      top:50px;
+      right: 915px;
      }
-    </style>
+  #bottomright{
+    position: absolute;
+    bottom:330px;
+    right: 915px;
+  }
+  #bottomleft{
+position: absolute;
+bottom:330px;
+left:50px;
+  }
+
+   </style>
 </head>
 <body>
     <div id="purple">
     </div>
-    <div class="yellow">
- </div>
-   
-
+ <div class="yellow" id="topleft">
+     </div>
+     <div class="yellow" id="topright">
+</div>
+ <div class="yellow" id="bottomright">
+   </div>
+   <div class="yellow" id="bottomleft">
+</div>
 </body>
 </html>
