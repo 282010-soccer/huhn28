@@ -1,0 +1,10 @@
+h3{ text-transform: uppercase;}
+p{
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: rgb(255, 220, 251);
+}
+ a{
+    font-size: 16; font-style:italic;
+}
