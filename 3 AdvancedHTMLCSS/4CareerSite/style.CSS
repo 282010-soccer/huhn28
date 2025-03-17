@@ -11,10 +11,13 @@ background-color: rgb(255, 220, 251);
 
 .header{
     border-style:solid;
-    background-color: rgb(255, 220, 251);
+    background-image:url(https://www.pngall.com/home-interior-design-png/download/50353/);
 }
 .content{
     height:80%;
     width:70%;
-    background-color: rgb(255, 220, 251);
+    background-image:url(https://www.pngall.com/home-interior-design-png/download/50353/);
+}
+.footer{
+    background-image:url(https://www.pngall.com/home-interior-design-png/download/50353/);
 }
