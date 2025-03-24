@@ -12,6 +12,7 @@ background-image: url("imgs/Interior-Design-PNG\ \(2\).png");
 .header{
     border-style:solid;
    background-color: rgb(244, 179, 157,.8);}
+   
 .content{
     height:80%;
     width:70%;
@@ -19,4 +20,7 @@ background-image: url("imgs/Interior-Design-PNG\ \(2\).png");
 }
 .footer{
     background-color: rgb(244, 179, 157,.8);
+}
+main{
+    background-color: rgb(255, 255, 255,.5) ;
 }
