@@ -24,3 +24,7 @@ background-image: url("imgs/Interior-Design-PNG\ \(2\).png");
 main{
     background-color: rgb(255, 255, 255,.5) ;
 }
+.job-title{
+background-color: maroon;
+font-weight: bold;
+}
