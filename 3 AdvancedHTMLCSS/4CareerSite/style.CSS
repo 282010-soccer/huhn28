@@ -28,3 +28,10 @@ main{
 background-color: maroon;
 font-weight: bold;
 }
+.large-list{
+font-size: 25px; font-weight: bold;
+}
+.small-list{
+    font-size: 18px;
+   font-weight: normal;
+}
