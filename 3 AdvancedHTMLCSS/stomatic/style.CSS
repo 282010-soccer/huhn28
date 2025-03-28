@@ -1,5 +1,8 @@
 h1{
-    color: deeppink;
+    color: rgb(255, 0, 102);
+}
+h2{
+    color:rgb(0, 255, 247) ;
 }
 body{
     background-image: url(imgs/pexels-goumbik-1352296.jpg);
