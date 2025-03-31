@@ -1,0 +1,39 @@
+h2 {
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+    color:antiquewhite;
+
+  }
+
+  #one {
+
+    padding: 20px;
+
+    background-color: darkcyan;}
+
+ 
+
+  #two {
+
+    padding: 20px;
+
+    background-color: goldenrod; }
+
+ 
+
+  #three {
+
+    padding: 20px;
+
+    background-color:coral;}
+
+.card{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    
+    font-size: 24px;
+}
