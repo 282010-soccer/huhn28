@@ -20,9 +20,14 @@ background-image: url("imgs/Interior-Design-PNG\ \(2\).png");
 }
 .footer{
     background-color: rgb(244, 179, 157,.8);
+    margin: 50px;
+padding: 10px;
+
 }
 main{
     background-color:rgb(244, 179, 157,.8) ;
+    margin: 15px;
+padding: 10px;
 }
 .job-title{
 background-color: maroon;
