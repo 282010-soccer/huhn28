@@ -18,8 +18,7 @@ img{
     height:50px;
     width:50px;
     position:inline;
-    filter: blur(10px);
-   filter: invert(10px);
+   
 }
 
 body{
@@ -36,3 +35,11 @@ ul{
 li{
     display:inline-flex; // force list items to be in one line
 }
+.even{
+    filter: blur(2px);
+}
+.odd{
+    filter:hue-rotate(90deg);}
+    #pierogi:hover{
+        background-image:url("https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8");
+    }
