@@ -1,8 +1,9 @@
 img{
     width: 500px;
     height: 500px;
-    filter:contrast(50px);
+    filter: blur(4px);
+    
 }
 #img2:hover{
-    filter:invert(0);
+    filter: grayscale(100%);
 }
