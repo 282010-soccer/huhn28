@@ -76,11 +76,12 @@ li{
         width: 200px;
         height:200px;
         background-image:url("https://codehs.com/uploads/1929782939fb200100f4118e25bdca40");
+        visibility:pho;
         
     }
    h2{
     visibility: hidden;
    }
    h2.visible:hover{
-    visibility: visible;
+    visibility: ;
    }
