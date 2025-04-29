@@ -1,5 +1,5 @@
 .tooltip:hover .tooltip-text{
-    
+   visibility:visible;
 }
 
 
@@ -22,9 +22,10 @@
     /* Position the text
        relative to its container,
        div.tooltip*/
-    left: ;
-    top: ;
-    padding:;
+    left:270px ;
+    top: 50px;
+    padding:5px;
+visibility:hidden;
 }
 
 
