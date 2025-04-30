@@ -5,3 +5,10 @@
     left: 350px;
     top:30px
 }
+html{
+    background-color: rgb(255, 184, 255);
+}
+h3{
+    font-style: oblique;
+    color:rgb(255, 0, 136)
+}
