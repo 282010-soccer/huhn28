@@ -12,4 +12,9 @@ h3{
     font-style: oblique;
     color:rgb(255, 0, 136)
 }
-ul{font-size: medium;}
+.footer{
+    background-color: rgb(244, 179, 157,.8);
+    margin: 50px;
+padding: 10px;
+}
+
