@@ -1,7 +1,7 @@
 .header{
     color: rgb(177, 94, 255);
     font-style: initial;
-    position: absolute;
+    position: relative;
     left: 350px;
     top:30px
 }
@@ -13,8 +13,16 @@ h3{
     color:rgb(255, 0, 136)
 }
 .footer{
-    background-color: rgb(244, 179, 157,.8);
+    
     margin: 50px;
-padding: 10px;
+padding: 10px}
+.pink{
+    position: relative;
+    left: 20px;
+    top:30px
 }
-
+.img{
+    position: absolute;
+    left: 1500px;
+    top:30px
+}
