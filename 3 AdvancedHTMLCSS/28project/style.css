@@ -8,7 +8,7 @@
 html{
     background-color: rgb(255, 184, 255);
 }
-h3{
+h2{
     font-style: oblique;
     color:rgb(255, 0, 136)
 }
@@ -25,4 +25,16 @@ padding: 10px}
     position: absolute;
     left: 1500px;
     top:30px
+}
+.Hersey:hover{
+
+}
+h3{
+    font-style: normal;
+    color:rgb(190, 63, 216)
+}
+.list{
+    position: absolute;
+    left:1500px;
+    top:400px;
 }
