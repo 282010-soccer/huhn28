@@ -18,35 +18,126 @@
               100%{left:50%;}
           }
            </style>
+           <style>
+            .container {
+              position: relative;
+              width: 50%;
+            }
+            
+            .image {
+              display: block;
+              width: 270px;
+              height: 200px;
+            }
+            
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height:100%;
+              width: 100%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #008CBA;
+            }
+            
+            .container:hover .overlay {
+              opacity: 1;
+            }
+            
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            </style>
+            <style>
+              .container {
+                position: relative;
+                width: 50%;
+              }
+              
+              .image {
+                display: block;
+                width: 270px;
+                height: 200px;
+              }
+              
+              .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height:250px;
+                width: 300px;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #008CBA;
+              }
+              
+              .container:hover .overlay {
+                opacity: 1;
+              }
+              
+              .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+              }
+              </style>
 </head>
 <body>
     <img src="img candy/sweet-candy-background-pixeor-com.jpg" width="300px" height="200px">
     <div class="header" id="moving-text"><h1>Top Candys According to Each State in The Midwest</h1></div>
-    <p><h2> what is candy? Well candy is a very sugary treat that kids love to eat. There are all different types
-        of candy like hard candy, choacalate, and sour candy. My favorite candy type is choacalate. I chose this topic because i love candy
-        i have a very big sweet tooth so knowing this i wanted to do research and see what other people from other states like to have when they afre craving a sweet treat.</h2>
-    </p>
-    <ul>Top Chocalate Candy's In Each Midwest State <h3>                                                              
-<li class="Hersey">Michigan:Hersey's Bar</li>
-<li>Ohio:M&M's</li>
-<li>Illinois:M&M's</li>
-<li>Wisconsin:M&M's</li>
-<li>Indiana:Skittles</li>
-<li>Minnesota:Twix</li>
-<li>Iowa:Starburst</li>
-<li>North Dakota:Sour Patch Kids</li>
-<li>South Dakota:Reese's Penut Butter Cup's</li>
-<li>Kansas:Snickers</li>
-<li>Nebraska:Sor patch kids</li>
-<li> Kentcky:Swedish Fish</li>
-<li>Minnesota:Twix</li></ul>
+    
+    <ul><h2>Top Chocalate Candy's In Each Midwest State </h2><h3>
+      <div class="container">
+        <img src="img candy/13wmt-articleLarge-v3-removebg-preview.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Michigan:Hersey's Bar</div>
+        </div>
+      </div>  
+      <div class="container">
+        <img src="img candy/pngimg.com - snickers_PNG13916.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Kansas:Snickers Bar</div>
+        </div>
+      </div>  
 
-<ul class="list">Top Sour Candy In Each Midwest State<h3>
-<li>Indiana:Skittles</li>
-<li>Iowa:Starburst</li>
-<li>North Dakota:Sour Patch Kids</li>
-<li>Nebraska:Sor patch kids</li>
-<li> Kentcky:Swedish Fish</li>
+<li><p>Ohio:M&M's</li></p>
+<li><p>Illinois:M&M's</li></p>
+<li><p>Wisconsin:M&M's</li></p>
+<li><p>Indiana:Skittles</li></p>
+<li><p>Minnesota:Twix</li></p>
+<li><p>Iowa:Starburst</li></p>
+<li><p>North Dakota:Sour Patch Kids</li></p>
+<li><p>South Dakota:Reese's Penut Butter Cup's</li></p>
+<li><p>:Snickers</li></p>
+<li><p>Nebraska:Sor patch kids</li></p>
+<li><p> Kentcky:Swedish Fish</li></p>
+<li><p>Minnesota:Twix</li></p></ul>
+
+<ul class="list"><h2>Top Sour Candy In Each Midwest State</h2><h3>
+<li><p>Indiana:Skittles</li></p>
+<li><p>Iowa:Starburst</li></p>
+<li><p>North Dakota:Sour Patch Kids</li></p>
+<li><p>Nebraska:Sor patch kids</li></p>
+<li><p>Kentcky:Swedish Fish</li></p> 
     </ul>
     <div class="footer">
         <a href="unit 3 project.html">
