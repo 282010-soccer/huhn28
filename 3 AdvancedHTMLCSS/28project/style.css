@@ -19,16 +19,8 @@ padding: 10px}
 .pink{
     position: relative;
     left: 20px;
-    top:30px
-}
-.img{
-    position: absolute;
-    left: 1500px;
-    top:30px
-}
-.Hersey:hover{
+    top:30px;}
 
-}
 h3{
     font-style: normal;
     color:rgb(190, 63, 216)
@@ -48,7 +40,47 @@ h3{
     left:1500px;
     top:100px;
 }
-.table{
-    font-style: italic;
-        background-color: rgb(255, 0, 136);
-    border-color: crimson;}
+
+    
+    .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        display: block;
+        width: 450px;
+        height: 300px;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height:0%;
+        width: 50%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #16b5eb;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: rgb(119, 0, 255);
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align:right;
+      }
+     
+     
+      
