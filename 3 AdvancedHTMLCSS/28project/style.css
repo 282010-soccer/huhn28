@@ -35,6 +35,20 @@ h3{
 }
 .list{
     position: absolute;
-    left:1000px;
+    left:800px;
+    top:20px;
+}
+.halloween{
+    position: absolute;
+    left:700px;
     top:230px;
 }
+.sour{
+    position: absolute;
+    left:1500px;
+    top:100px;
+}
+.table{
+    font-style: italic;
+        background-color: rgb(255, 0, 136);
+    border-color: crimson;}
