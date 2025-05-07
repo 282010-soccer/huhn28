@@ -85,3 +85,9 @@ li{
    h2.visible:hover{
     visibility: visible;
    }
+   .label{
+    color:white;
+    text-shadow: 2px 2px 3px gray;
+    visibility: hidden;
+   }
+   .platter:hover .label{visibility: visible;}

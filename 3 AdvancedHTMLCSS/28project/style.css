@@ -35,11 +35,6 @@ h3{
     left:700px;
     top:230px;
 }
-.sour{
-    position: absolute;
-    left:1500px;
-    top:100px;
-}
 
     
     .container {
@@ -82,5 +77,9 @@ h3{
         text-align:right;
       }
      
-     
-      
+     .work{
+        position: relative;
+        left:1000px;
+        top:50px
+     }
+    
