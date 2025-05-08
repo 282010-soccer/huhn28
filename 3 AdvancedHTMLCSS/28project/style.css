@@ -15,7 +15,17 @@ h2{
 .footer{
     
     margin: 50px;
-padding: 10px}
+padding: 10px;
+position: absolute;
+left: 1500px;
+top:800px}
+.foot{
+    
+  margin: 50px;
+padding: 10px;
+position: absolute;
+left: 1500px;
+top:900px}
 .pink{
     position: relative;
     left: 20px;
@@ -33,7 +43,12 @@ h3{
 .halloween{
     position: absolute;
     left:700px;
-    top:230px;
+    top:330px;
+}
+.img{
+  position: absolute;
+  left:1500px;
+  top:50px;
 }
 
     
@@ -80,6 +95,49 @@ h3{
      .work{
         position: relative;
         left:1000px;
-        top:50px
-     }
+        top:50px}
     
+
+
+
+
+body{
+  font-style: normal;}
+
+
+ 
+  .footer{
+    
+    margin: 50px;
+padding: 10px;
+position: absolute;
+left: 1500px;
+top:380px}
+.foot{
+    
+  margin: 50px;
+padding: 10px;
+position: absolute;
+left: 1500px;
+top:500px}
+.Twix{
+
+
+  color:white;
+  text-shadow: 2px 2px 3px gray;
+  visibility: hidden;
+}
+
+.brown:hover .Twix{
+  visibility: visible;
+}
+h1{
+
+  color: rgb(213, 46, 255);
+}
+.sour{
+position: absolute;
+left:1200px;
+top:900px
+
+}

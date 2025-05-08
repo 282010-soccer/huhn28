@@ -39,6 +39,7 @@
       display: block;
       width: 450px;
       height: 300px;
+
     }
 
     .overlay {
@@ -53,12 +54,24 @@
       transition: .5s ease;
       background-color: #16b5eb;
     }
+img.filtered-image{animation: blurFilter 2s forwards;
+}
+@keyframes blurFilter{
+    from{
+        filter:blur(0%)
+    }
+    to{
+        filter:blur(100%)
+    }
+}
+
+
   </style>
 </head>
 
 <body>
 
-  <img src="img candy/sweet-candy-background-pixeor-com.jpg" width="500px" height="300px" class="pink"><img
+  <img class="filtered-image" src="img candy/sweet-candy-background-pixeor-com.jpg" width="500px" height="300px" class="pink"><img class="filtered-image"
     src="img candy/midwest_political_map-2390148085.gif" width="500px" height="300px" class="img">
   <div class="header" id="moving-text">
     <h1>The Midwest's Sweet Tooth</h1>
@@ -66,10 +79,9 @@
   <p>
   <h2> what is candy? Well candy is a very sugary treat that kids love to eat. There are all different types
     of candy like hard candy, choacalate, and sour candy. My favorite candy type is choacalate. I chose this topic
-    because i love candy
-    i have a very big sweet tooth so knowing this i wanted to do research and see what other people from other states
-    like to have when they are craving a sweet treat. the midwest is
-    consideed to consists of 13 states which are:
+    because I love candy. I have a very big sweet tooth so knowing this I wanted to do research and see what other people from other states
+    like to have when they are craving a sweet treat. I also wanted to do this project on this topic because I wanted to learn for myself what every other state in the Midwest region 
+    thought about candy. The Midwest consists of 13 states which are:
     <ul>
       <li>Kansas</li>
       <li>Minnesota</li>
@@ -86,36 +98,39 @@
   </h2>
   </p>
   <p>
-  <h2>I have a lot of favorite candy's but i mostly love to eat choacalate when i am craving a sweet treat. I love candy
-    but i love othe deserts more like ice cream and pastries.Even though my favoritetype
-    of candy is chacolate i still love to ocasionally have a sour or sweet ggummy or hard candy.</h2>
+  <h2>I have a lot of favorite candy's but I mostly love to eat chocolate when I am craving a sweet treat. I love candy
+    but I love other deserts more like ice cream and pastries. Even though my favorite type
+    of candy is chocolate I still love to ocasionally have a sour or sweet gummy or hard candy. My mom has a tradition that she always puts a bowl of candy on the table to see who 
+  eats the most of it. I usually is always me except when she puts jellybeans in it I stay away from those.</h2>
   </p>
 <table>
   <tr>
-    <td><h2>My Favorite type of Choacalate Candy is?</h2>
-      <h4>Hover over <h2 class="brown">Chocolate </h2>for my favorite Choacalate be revealed!</h4>
-      <div class="container">
-        <div class="text"></div>
-        <img src="img candy/Twix-Bar-690004817-removebg-preview.png" alt="Avatar" class="image" id="twix">
-        <div class="overlay">
-        </div></td>
-        <td><div class="sour">
-          <h2>My Favorite type of Sour Candy is?</h2>
-          <h4>Hover over <h2>Sour </h2>for my favorite sour candy to be revealed!</h4>
+    <td><h1>My Favorite type of Chocolate Candy Is?</h1>
+      <img src="img candy/Twix-Bar-690004817-removebg-preview.png">
+        
+    </div>
+      </td>
+        <td><div class="sour"><h1>My Favorite Type Of Sour Candy Is?</h1>
+          <img src="img candy/all-pink-starburst-1557393777-removebg-preview.png">
         </div>
     </td>
 </tr>
 </table>
 
+
+
+
+
+
   
-    <div class="footer">
+    <div class="footer"><h2>Other Sites:</h2>
       <a href="sweet.html">
-        <h2>Types of Candy</h2>
+        <h2>The Midwests States Top Candies</h2>
       </a>
     </div>
-    <div class="footer">
+    <div class="foot">
       <a href="conclusion.html">
-        <h2>Conclusion</h2>F
+        <h2>Conclusion</h2>
       </a>
     </div>
 </body>
