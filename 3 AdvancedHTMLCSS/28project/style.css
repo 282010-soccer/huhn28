@@ -138,6 +138,17 @@ h1{
 .sour{
 position: absolute;
 left:1200px;
-top:900px
+top:950px
 
+}
+.filtered-image{
+  animation: blurFilter 2s forwards;
+}
+@keyframes blurFilter{
+    from{
+        filter:blur(0%)
+    }
+    to{
+        filter:blur(100%)
+    }
 }
