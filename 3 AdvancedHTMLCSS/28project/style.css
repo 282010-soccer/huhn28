@@ -26,10 +26,7 @@ padding: 10px;
 position: absolute;
 left: 1500px;
 top:900px}
-.pink{
-    position: relative;
-    left: 20px;
-    top:30px;}
+
 
 h3{
     font-style: normal;
@@ -138,7 +135,7 @@ h1{
 .sour{
 position: absolute;
 left:1200px;
-top:950px
+top:950px;
 
 }
 .filtered-image{
