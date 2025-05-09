@@ -25,59 +25,35 @@
     }
   </style>
   <style>
-    .container {
-      position: relative;
-      width: 50%;
-    }
-
-    .text:hover .image {
-      opacity: 1;
-
-    }
-
-    .image {
-      display: block;
-      width: 450px;
-      height: 300px;
-
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 0%;
-      width: 50%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #16b5eb;
-    }
-img.filtered-image{animation: blurFilter 2s forwards;
+    
+.filtered-image{animation: blurFilter 2s forwards;
 }
 @keyframes blurFilter{
     from{
-        filter:blur(0%)
-    }
-    to{
         filter:blur(100%)
     }
+    to{
+        filter:blur(0%)
+    }
 }
-
+.img{
+  position: absolute;
+  left:300px;
+  top:100px;
+}
 
   </style>
 </head>
 
 <body>
 
-  <img class="filtered-image" src="img candy/sweet-candy-background-pixeor-com.jpg" width="500px" height="300px" class="pink"><img class="filtered-image"
+  <img class="filtered-image" src="img candy/sweet-candy-background-pixeor-com.jpg" width="500px" height="300px" ><img class="filtered-image"
     src="img candy/midwest_political_map-2390148085.gif" width="500px" height="300px" class="img">
   <div class="header" id="moving-text">
     <h1>The Midwest's Sweet Tooth</h1>
   </div>
   <p>
-  <h2> what is candy? Well candy is a very sugary treat that kids love to eat. There are all different types
+  <h2> What is candy? Well candy is a very sugary treat that kids love to eat. There are all different types
     of candy like hard candy, choacalate, and sour candy. My favorite candy type is choacalate. I chose this topic
     because I love candy. I have a very big sweet tooth so knowing this I wanted to do research and see what other people from other states
     like to have when they are craving a sweet treat. I also wanted to do this project on this topic because I wanted to learn for myself what every other state in the Midwest region 
