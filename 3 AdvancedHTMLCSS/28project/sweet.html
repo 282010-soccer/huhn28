@@ -1,247 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Candys According to Each State in The Midwest
-    </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-      #moving-text {
-          display: inline-block;
-          position:relative;
-          animation: moveText 5s linear infinite;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Candys According to Each State in The Midwest
+  </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    #moving-text {
+      display: inline-block;
+      position: relative;
+      animation: moveText 5s linear infinite;
+    }
+
+    @keyframes moveText {
+      0% {
+        left: 0;
       }
 
-      @keyframes moveText {
-                  0% { left:0;}
-              100%{left:50%;}
-          }
-           </style>
-            <style>
-              .container {
-                position: relative;
-                width: 50%;
-              }
-              
-              .image {
-                display: block;
-                width: 200px;
-                height: 200px;
-              }
-              
-              .overlay {
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                height:200px;
-                width: 200px;
-                opacity: 0;
-                transition: .5s ease;
-                background-color: #9be6ff;
-              }
-              
-              .container:hover .overlay {
-                opacity: 1;
-              }
-              
-              .text {
-                color: white;
-                font-size: 20px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-              }
-              </style>
-              <style>
-                .container {
-                  position: relative;
-                  width: 50%;
-                }
-                
-                .image {
-                  display: block;
-                  width: 270px;
-                  height: 200px;
-                }
-                
-                .overlay {
-                  position: absolute;
-                  top: 0;
-                  bottom: 0;
-                  left: 0;
-                  right: 0;
-                  height:250px;
-                  width: 300px;
-                  opacity: 0;
-                  transition: .5s ease;
-                  background-color: #77ddff;
-                }
-                
-                .container:hover .overlay {
-                  opacity: 1;
-                }
-                
-                .text {
-                  color: white;
-                  font-size: 20px;
-                  position: absolute;
-                  top: 50%;
-                  left: 50%;
-                  -webkit-transform: translate(-50%, -50%);
-                  -ms-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
-                  text-align: center;
-                }
+      100% {
+        left: 50%;
+      }
+    }
+  </style>
+  <style>
+    .container {
+      position: relative;
+      width: 50%;
+    }
+
+    .image {
+      display: block;
+      width: 200px;
+      height: 200px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 200px;
+      width: 200px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #9be6ff;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+  <style>
+    .container {
+      position: relative;
+      width: 50%;
+    }
+
+    .image {
+      display: block;
+      width: 270px;
+      height: 200px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 250px;
+      width: 300px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #77ddff;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
 
 
 
-                .footer{
-    
-    margin: 50px;
-padding: 10px;
-position: absolute;
-left: 1500px;
-top:300px}
-.foot{
-    
-  margin: 50px;
-padding: 10px;
-position: absolute;
-left: 1500px;
-top:400px}
-                </style>
-            
-        
-               
+    .footer {
+
+      margin: 50px;
+      padding: 10px;
+      position: absolute;
+      left: 1500px;
+      top: 300px
+    }
+
+    .foot {
+
+      margin: 50px;
+      padding: 10px;
+      position: absolute;
+      left: 1500px;
+      top: 400px
+    }
+  </style>
+
+
+
 </head>
+
 <body>
   <img src="img candy/sweet-candy-background-pixeor-com.jpg" width="500px" height="300px" class="pink"><img
-  src="img candy/midwest_political_map-2390148085.gif" width="500px" height="300px" class="img">
-<div class="header" id="moving-text">
-  <h1>The Midwest States Top Candies</h1>
-</div>
-<table>
-  <tr>
-    <td><ul><h2>Top Chocalate Candy's In Each Midwest State: </h2><h4>Hover over images to see what the states in the Midwests favorite sweet treats are:</h4>
-      <div class="container">
-        <img src="img candy/13wmt-articleLarge-v3-removebg-preview.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Michigan: Hersey's Bar</div>
-        </div>
-      </div>  
-      <div class="container">
-        <img src="img candy/pngimg.com - snickers_PNG13916.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Kansas: Snickers Bar</div>
-        </div>
-      </div>  
-      <div class="container">
-        <img src="img candy/kit.png"    alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Missouri: kit kat</div>
-        </div>
-      </div>  
-      <div class="container">
-        <img src="img candy/m_m_PNG23-830605860.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Ohio, Illinois, Wisconsin: M&M's</div>
-        </div>
-      </div> 
-      <div class="container">
-        <img src="img candy/12461911204_50349a0e04_b-3800110495-removebg-preview.png"    alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">North Dakota, Nebraska: Sour Patch Kids </div>
-          
-        </div>
-      </div>  
-      </div>  
-      <div class="container">
-        <img src="img candy/skittles_PNG15-1839483145.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Indiana: Skittles</div>
-        </div>
-      </div>  
-      <div class="container">
-        <img src="img candy/all-pink-starburst-1557393777-removebg-preview.png"    alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Iowa: Starburst</div>
-        </div>
-      </div> 
-      <div class="container">
-        <img src="img candy/sweadish fish.png"    alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Kentucky: Swedish Fish</div>
-        </div>
-      </div>   
-      <div class="container">
-        <img src="img candy/Twix-Bar-690004817-removebg-preview.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Minnesota: Twix</div>
-        </div>
-      
-      <div class="container">
-        <img src="img candy/resses.png"    alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">South Dakota: Reese's Penut Butter Cup's</div>
-        </div>
-      </div>  
-      
-  </td>
-        <td> <ul class="halloween"><h2>Top Halloween Candy in Each Midwest State</h2><h3>
+    src="img candy/midwest_political_map-2390148085.gif" width="500px" height="300px" class="img">
+  <div class="header" id="moving-text">
+    <h1>The Midwest States Top Candies</h1>
+  </div>
+  <table>
+    <tr>
+      <td>
+        <ul>
+          <h2>Top Chocalate Candy's In Each Midwest State: </h2>
+          <h4>Hover over images to see what the states in the Midwests favorite sweet treats are:</h4>
           <div class="container">
-            <img src="img candy/resses.png"    alt="Avatar" class="image">
+            <img src="img candy/13wmt-articleLarge-v3-removebg-preview.png" alt="Avatar" class="image">
             <div class="overlay">
-              <div class="text"> Indiana, Kentucky, Ohio: Reese's Penut Butter Cup's</div>
+              <div class="text">Michigan: Hersey's Bar</div>
             </div>
-          </div>  
+          </div>
+          <div class="container">
+            <img src="img candy/pngimg.com - snickers_PNG13916.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Kansas: Snickers Bar</div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="img candy/kit.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Missouri: kit kat</div>
+            </div>
+          </div>
           <div class="container">
             <img src="img candy/m_m_PNG23-830605860.png" alt="Avatar" class="image">
             <div class="overlay">
-              <div class="text"> South Dakota, Wisconsin, Iowa, Michigan, Kansas, Minnesota: M&M's </div>
+              <div class="text">Ohio, Illinois, Wisconsin: M&M's</div>
             </div>
-          </div> 
-          
+          </div>
           <div class="container">
-            <img src="img candy/twizzlers-licorice-candy-top-30-candies-of-all-time-candy-funhouse-2124967161-removebg-preview.png"    alt="Avatar" class="image">
+            <img src="img candy/12461911204_50349a0e04_b-3800110495-removebg-preview.png" alt="Avatar" class="image">
             <div class="overlay">
-              <div class="text">Illinois: Twizzlers</div>
+              <div class="text">North Dakota, Nebraska: Sour Patch Kids </div>
+
             </div>
-          </div> 
+          </div>
+          </div>
           <div class="container">
-            <img src="img candy/peanuut mand m.png"    alt="Avatar" class="image">
+            <img src="img candy/skittles_PNG15-1839483145.png" alt="Avatar" class="image">
             <div class="overlay">
-              <div class="text">North Dakota, Nebraska: Peanut M&M's</div>
+              <div class="text">Indiana: Skittles</div>
             </div>
-          </div> 
+          </div>
           <div class="container">
-            <img src="img candy/pop.png"    alt="Avatar" class="image">
+            <img src="img candy/all-pink-starburst-1557393777-removebg-preview.png" alt="Avatar" class="image">
             <div class="overlay">
-              <div class="text">Missouri: Tootsie Pops</div>
+              <div class="text">Iowa: Starburst</div>
             </div>
-          </div> 
-  </td></tr>
-</table>
+          </div>
+          <div class="container">
+            <img src="img candy/sweadish fish.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Kentucky: Swedish Fish</div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="img candy/Twix-Bar-690004817-removebg-preview.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">Minnesota: Twix</div>
+            </div>
 
- <div class="footer"> <h2> Other Sites:</h2>
-        <a href="unit 3 project.html">
-          <h2>The Midwest's Sweet Tooth</h2>
-        </a>
-      </div>
-     <p> <div class="foot">
-        <a href="conclusion.html">
-          <h2>Conclusion</h2>
-        </a>
-      </div></p>
+            <div class="container">
+              <img src="img candy/resses.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">South Dakota: Reese's Penut Butter Cup's</div>
+              </div>
+            </div>
+
+      </td>
+      <td>
+        <ul class="halloween">
+          <h2>Top Halloween Candy in Each Midwest State</h2>
+          <h3>
+            <div class="container">
+              <img src="img candy/resses.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text"> Indiana, Kentucky, Ohio: Reese's Penut Butter Cup's</div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="img candy/m_m_PNG23-830605860.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text"> South Dakota, Wisconsin, Iowa, Michigan, Kansas, Minnesota: M&M's </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <img
+                src="img candy/twizzlers-licorice-candy-top-30-candies-of-all-time-candy-funhouse-2124967161-removebg-preview.png"
+                alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Illinois: Twizzlers</div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="img candy/peanuut mand m.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">North Dakota, Nebraska: Peanut M&M's</div>
+              </div>
+            </div>
+            <div class="container">
+              <img src="img candy/pop.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Missouri: Tootsie Pops</div>
+              </div>
+            </div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    <h2> Other Sites:</h2>
+    <a href="unit 3 project.html">
+      <h2>The Midwest's Sweet Tooth</h2>
+    </a>
+  </div>
+  <p>
+  <div class="foot">
+    <a href="conclusion.html">
+      <h2>Conclusion</h2>
+    </a>
+  </div>
+  </p>
 
 
-      <h2>By:Ryan Huhn</h2>
+  <h2>By:Ryan Huhn</h2>
 </body>
+
 </html>
-    

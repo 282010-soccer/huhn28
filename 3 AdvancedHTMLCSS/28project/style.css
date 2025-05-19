@@ -152,11 +152,11 @@ top:1500px;
 
 
 @keyframes colorChange {
-  0% { color: red; }
-  25% { color: orange; }
-  50% { color: yellow; }
-  75% { color: green; }
-  100% { color: blue; }
+  0% { color: rgb(255, 44, 192); }
+  25% { color: rgb(255, 209, 124); }
+  50% { color: rgb(255, 255, 142); }
+  75% { color: rgb(118, 254, 118); }
+  100% { color: rgb(121, 121, 255); }
 }
 
 /* Apply the animation to the text */
@@ -164,3 +164,28 @@ top:1500px;
   font-size: 2rem;
   font-weight: bold;
   animation: colorChange 3s infinite;} /* 3 seconds, loops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
