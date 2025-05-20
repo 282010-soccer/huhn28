@@ -1,10 +1,17 @@
 h1{
     background-color: rgb(116, 174, 255);
     position: absolute;
-    left:400px;
-    top:50px;
+    left:1100px;
+    top:5px;
 }
 h2{
     font-style: oblique;
-    color:rgb(255, 153, 216)
+    color:rgb(255, 115, 201);
+  
 }
+body{
+    background-color: rgb(255, 224, 255);
+}
+h3{
+    font-style: normal;
+color:rgb(39, 68, 122)}
