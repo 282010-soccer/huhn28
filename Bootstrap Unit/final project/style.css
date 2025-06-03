@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(170, 224, 255);
 }
 h1 {
     color: #9099A2; 
@@ -25,11 +25,13 @@ img{
     75% { color:blue; }
     100% { color: red; }
   }
-  
-  /* Apply the animation to header */
-  header h1 {
-    animation: colorChange 5s infinite; /* 5 seconds duration, loops infinitely */ }
-    .navbar{
-        color: navy;
-    }
-  
+ h1 ,h2, h3, h4, h5, h6{
+    color: crimson;/* Accent */
+}
+  img{
+    width: 1024px;
+    height: 576px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+  }
