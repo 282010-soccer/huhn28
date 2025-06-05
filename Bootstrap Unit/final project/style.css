@@ -26,3 +26,6 @@ margin-bottom: 1rem;
   box-shadow: 0 3px 8px black;
   transition: transform 0.2s ease-in-out;
 }
+p{
+  color: rgb(210, 217, 219);
+}
