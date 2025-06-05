@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(170, 224, 255);
+}
+h1 {
+    color: #9099A2; 
+}
+
+h2, h3, h4, h5, h6{
+    color: #6D7993; /* Accent */
+}
+
+a{
+    color:inherit;
+}
+img{
+    height:200px;
+    width:200px;
+}
+
+/* Define the animation */
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color:white; }
+    75% { color:blue; }
+    100% { color: red; }
+  }
+ h1 ,h2, h3, h4, h5, h6{
+    color: crimson;/* Accent */
+}
+  img{
+    width: 2024px;
+    height: 976px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+  }
+  .title{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
