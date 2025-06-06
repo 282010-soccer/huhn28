@@ -29,3 +29,11 @@ margin-bottom: 1rem;
 p{
   color: rgb(210, 217, 219);
 }
+.card{
+  border-radius: 15px;
+  box-shadow: 0 3px 8px black;
+  transition: transform0.2s ease-in-out;
+}
+.card:hover{
+  transform: translateY(10px);
+}
