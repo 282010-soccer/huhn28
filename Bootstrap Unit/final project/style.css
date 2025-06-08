@@ -68,5 +68,10 @@ h5{
   -webkit-transform: rotate(-45deg);
   position:absolute;
   left: 970px;
-  top:507px;
+  top:430px;
+}
+h1{
+  position: absolute;
+  top:60px;
+  left:900px;
 }
